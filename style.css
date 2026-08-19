@@ -79,3 +79,66 @@ main {
     color: #777;
     font-size: 14px;
 }
+
+.folder {
+    margin-bottom: 8px;
+}
+
+.folder-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px;
+
+    background: #f1f1f1;
+
+    border-radius: 5px;
+}
+
+.expand-button {
+    border: none;
+    background: none;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+.folder-contents {
+    margin-left: 25px;
+    padding-left: 10px;
+
+    border-left: 2px solid #ddd;
+}
+
+.file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.download {
+    background: #222;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 6px 10px;
+
+    cursor: pointer;
+}
+
+.download:hover {
+    background: #444;
+}
+
+.download:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
