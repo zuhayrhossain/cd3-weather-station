@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Weather Station</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Station</h1>
+        <p>Environmental monitoring dashboard</p>
+    </header>
+
+    <main>
+
+        <!-- Graph -->
+        <section class="card">
+            <h2>Temperature</h2>
+
+            <canvas id="temperatureChart"></canvas>
+
+            <p id="lastUpdated">
+                Last updated: Loading...
+            </p>
+        </section>
+
+
+        <!-- File Explorer -->
+        <section class="card">
+            <h2>Data Files</h2>
+
+            <div id="fileList">
+                Loading files...
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
