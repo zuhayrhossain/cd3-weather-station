@@ -117,7 +117,7 @@ const temperatureChart = new Chart(ctx, {
     }
 });
 
-
+loadFiles();
 // --------------------------------------
 // Example file list
 // --------------------------------------
